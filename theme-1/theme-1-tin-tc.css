@@ -698,12 +698,69 @@
     font-family: var(--font-inter);
   }
   
-
-
+  .test {
+    display: flex
+  }
 
   @media screen and (max-width: 1200px) {
 
     .theme-1-tin-tc {
       overflow: auto;
+    }
+    .test {
+      display: block
+    }
+
+    .div5, .div6, .div7, .test, .div14, .div24, .div25, .div26 {
+      position: relative;
+    }
+
+    .div7, .list-tin {
+    left: unset;
+    width: unset;
+    height: unset;
+    }
+  
+    .div13,
+    .news-icon {
+      position: relative;
+      left: unset;
+    }
+    .div13 {
+      top: unset;
+      width: unset;
+      height: unset;
+    }
+
+    .line4 {
+      width: 100%;
+    }
+    
+    .thumbnail5, .thumbnail6, .thumbnail7, .thumbnail8, .thumbnail9 {
+      position: relative;
+      top: unset;
+      left: unset;
+      width: unset;
+      height: unset;
+    }
+
+    .thumbnail, .thumbnail1, .thumbnail2, .thumbnail3, .thumbnail4 {
+      position: relative;
+      top: unset;
+      left: unset;
+      width: unset;
+      height: unset; 
+    }
+    .div6, .tin-bn {
+      height: unset
+    }
+
+    .div8, .real-madrid {
+      position: relative;
+      top: unset; 
+      left: unset; 
+      font-weight: unset; 
+      display: unset; 
+      width: unset; 
     }
   }
